@@ -1,20 +1,18 @@
 #define _CRT_SECURE_NO_WARNINGS
-
-// Chess.cpp : This file contains the 'main' function. Program execution begins and ends there.
-// 
-
 #include <iostream>
 
-#include "myArr.h"
+#include "Field.h"
 
 int main()
 {
+	for (size_t i = 0; i < 8; i++)
+	{
+		for (size_t j = 0; j < 8; j++)
+		{
+			Field
 
+		}
 
-
-
-
-
-
+	}
 
 }
