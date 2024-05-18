@@ -5,14 +5,24 @@
 
 int main()
 {
-	for (size_t i = 0; i < 8; i++)
-	{
-		for (size_t j = 0; j < 8; j++)
-		{
-			Field
+	Field myField;
+	myField.createField();
 
+	myField.drawField();
+	std::string input;
+
+	while (input != "N" || input != "No" || input != "n" || input != "no")
+	{
+
+
+		printf("(+) Do you want to turn a board? \n(+) Yes/Y/yes/y \n(-) No/N/no/n for exit program \n");
+		std::cin >> input;
+
+		if (input == "Y" || input == "Yes" || input == "y" || input == "yes")
+		{
+			myField.reverseField();
+			myField.drawField();
 		}
 
 	}
-
 }

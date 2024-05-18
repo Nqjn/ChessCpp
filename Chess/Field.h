@@ -1,16 +1,18 @@
 #pragma once
+#include "Figure.h"
 
 class Field
 {
 public:
-
-	std::string field[8][8];
-
 	Field();
 	~Field();
-	create_Field();
+	void createField();
+	void drawField();
+	void reverseField();
+	void setOnField(Figure* Fig);
 
 private:
+	std::string field[8][8];
 
 
 };

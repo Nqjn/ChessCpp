@@ -1,4 +1,2 @@
 ﻿  Chess.cpp
-D:\C++\Chess\Chess\Chess.cpp(15,8): warning C4101: 'iVal': unreferenced local variable
-D:\C++\Chess\Chess\Chess.cpp(16,47): warning C4101: 'ptr_cVal': unreferenced local variable
   Chess.vcxproj -> D:\C++\Chess\x64\Debug\Chess.exe
